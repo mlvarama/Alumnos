@@ -2,9 +2,9 @@
 function conectar(){
     $host="localhost";
     $user="root";
-    $pass="";
+    $pass=" ";
 
-    $bd="jvh-tutoriales";
+    $bd="alumnos";
 
     $con=mysqli_connect($host,$user,$pass);
 
