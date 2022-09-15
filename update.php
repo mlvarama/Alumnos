@@ -12,6 +12,6 @@ $sql="UPDATE alumno SET  dni='$dni',nombres='$nombres',apellidos='$apellidos' WH
 $query=mysqli_query($con,$sql);
 
     if($query){
-        Header("Location: alumno.php");
+        Header("Location: index.php");
     }
 ?>

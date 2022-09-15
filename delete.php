@@ -9,6 +9,6 @@ $sql="DELETE FROM alumno  WHERE cod_estudiante='$cod_estudiante'";
 $query=mysqli_query($con,$sql);
 
     if($query){
-        Header("Location: alumno.php");
+        Header("Location: index.php");
     }
 ?>
